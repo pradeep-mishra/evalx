@@ -4,19 +4,21 @@
   "description": "node module to enable and disable eval",
   "main": "index.js",
   "scripts": {
-    "test": "node test/main.test.js"
+    "test": "mocha tests/index.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pradeep-mishra/evaless.git"
   },
-  "author": "",
+  "author": "pradeep23oct@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pradeep-mishra/evaless/issues"
   },
   "homepage": "https://github.com/pradeep-mishra/evaless#readme",
-  "dependencies": {
-    "bindings": "^1.3.0"
+  "dependencies": {},
+  "gypfile": true,
+  "devDependencies": {
+    "should": "^13.2.1"
   }
 }

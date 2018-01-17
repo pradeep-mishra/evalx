@@ -1,4 +1,4 @@
-var addon = require('bindings')('addon.node')
+var addon = require('./build/Release/addon')
 module.exports = {
     enableEval: (bool) => {
         if (bool) {

@@ -1,12 +1,12 @@
 # evaless
 node module to disable and enable eval in v8
 
-Usage
+Usage:
 -----
 ```javascript
 const evaless = require('evaless');
 
-// disabling eval
+// disable eval
 evalsess.enableEval(false);
 
 
@@ -14,3 +14,8 @@ evalsess.enableEval(false);
 evalsess.enableEval(true);
 
 ```
+
+Warning:
+--------
+
+Evaless module is based on N-API and N-API is an experimental feature and could change at any time.

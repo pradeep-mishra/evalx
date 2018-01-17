@@ -7,15 +7,15 @@ Usage:
 const evaless = require('evaless');
 
 // disable eval
-evalsess.enableEval(false);
+evaless.enableEval(false);
 
 
 // enable eval
-evalsess.enableEval(true);
+evaless.enableEval(true);
 
 ```
 
 Warning:
 --------
-
-Evaless module is based on N-API and N-API is an experimental feature and could change at any time.
+N-API is an experimental feature and could change at any time.
+**evaless** module is based on N-API

@@ -1,0 +1,22 @@
+{
+  "name": "evaless",
+  "version": "0.0.1",
+  "description": "node module to enable and disable eval",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/main.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep-mishra/evaless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep-mishra/evaless/issues"
+  },
+  "homepage": "https://github.com/pradeep-mishra/evaless#readme",
+  "dependencies": {
+    "bindings": "^1.3.0"
+  }
+}

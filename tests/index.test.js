@@ -8,7 +8,7 @@ describe('Evaless Tests', function () {
         done();
     });
 
-    it('calling eval should throw an error', function (done) {
+    it('calling eval after disabling it should throw an error', function (done) {
         evaless.enableEval(false);
         try {
             let response = eval('"hello world"')

@@ -1,5 +1,5 @@
 {
-  "name": "evaless",
+  "name": "evaldead",
   "version": "0.0.1",
   "description": "node module to enable and disable eval",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pradeep-mishra/evaless.git"
+    "url": "git+https://github.com/pradeep-mishra/evaldead.git"
   },
   "author": "pradeep23oct@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pradeep-mishra/evaless/issues"
+    "url": "https://github.com/pradeep-mishra/evaldead/issues"
   },
-  "homepage": "https://github.com/pradeep-mishra/evaless#readme",
+  "homepage": "https://github.com/pradeep-mishra/evaldead#readme",
   "dependencies": {},
   "gypfile": true,
   "devDependencies": {
@@ -31,6 +31,7 @@
     "disable eval",
     "block eval",
     "remove eval",
-    "evaless"
+    "evaless",
+    "evaldead"
   ]
 }

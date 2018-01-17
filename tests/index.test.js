@@ -1,7 +1,7 @@
 const should = require('should');
 const evaless = require('../index');
 
-describe('Evaless Tests', function () {
+describe('Evaldead Tests', function () {
     it('calling eval should return hello world', function (done) {
         let response = eval('"hello world"')
         response.should.equal('hello world');

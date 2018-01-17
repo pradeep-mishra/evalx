@@ -4,7 +4,7 @@ node module to disable and enable eval in v8
 Usage:
 -----
 ```javascript
-const evaldead = require('evaless');
+const evaldead = require('evaldead');
 
 // disable eval
 evaldead.enableEval(false);

@@ -28,6 +28,8 @@
   "readmeFilename": "README.md",
   "keywords": [
     "eval",
+    "noeval",
+    "no eval",
     "disable eval",
     "block eval",
     "remove eval",

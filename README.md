@@ -1,21 +1,21 @@
-# evaldead
+# evalx
 node module to disable and enable eval in v8
 
 Usage:
 -----
 ```javascript
-const evaldead = require('evaldead');
+const evalx = require('evalx');
 
 // disable eval
-evaldead.enableEval(false);
+evalx.disableEval(true);
 
 
 // enable eval
-evaldead.enableEval(true);
+evalx.disableEval(false);
 
 ```
 
 Warning:
 --------
 N-API is an experimental feature and could change at any time.
-**evaldead** module is based on N-API
+**evalx** module is based on N-API

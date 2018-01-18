@@ -1,10 +1,10 @@
 var addon = require('./build/Release/addon')
 module.exports = {
-    enableEval: (bool) => {
+    disableEval: (bool) => {
         if (bool) {
-            return addon(1);
-        } else {
             return addon(0);
+        } else {
+            return addon(1);
         }
     }
 };

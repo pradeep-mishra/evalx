@@ -1,6 +1,6 @@
 {
   "name": "evalx",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "node module to enable and disable eval",
   "main": "index.js",
   "scripts": {

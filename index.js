@@ -6,5 +6,11 @@ module.exports = {
         } else {
             return addon(1);
         }
+    },
+    disable: () => {
+        return addon(0);
+    },
+    enable: () => {
+        return addon(1);
     }
 };
